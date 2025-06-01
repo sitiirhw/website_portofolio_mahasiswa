@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h5>WELCOME TO</h5>
+      <h1>Our <span class="highlight">Website</span></h1>
+      <p>
+        Showcasing and presenting digital works from all students across Indonesia is a form of appreciation for their creativity, innovation, and dedication in working in the digital realm. Through this platform, students can convey fresh and original ideas that reflect the development of technology, art, and culture in various digital forms, such as graphic design, animation, UI/UX, illustration, and interactive multimedia works.
+      </p>
+    </div>
+    <div class="hero-image">
+      <img src="images/orang jalan.jpg" alt="Walking Person" />
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Featured Portofolios</h2>
+    <div class="cards">
+    <div class="card">
+      <div class="card-image">
+        <a href="detail-1.html">
+          <img src="images/img1.png" alt="Portofolio 1" />
+          <div class="overlay">Lihat Detail</div>
+        </a>
+      </div>
+      <p>Portofolio 1 - Deskripsi singkat karya ini.</p>
+    </div>
+    
+      <div class="card" onclick="openModal('2')">
+        <div class="card-image">
+          <a href="detail-2.html">
+          <img src="images/img1.png" alt="Portofolio 2" />
+          <div class="overlay">Lihat Detail</div>
+          </a>
+        </div>
+        <p>Portofolio 2 - Deskripsi singkat karya ini.</p>
+      </div>
+  
+      <div class="card" onclick="openModal('3')">
+        <div class="card-image">
+          <a href="detail-3.html">
+          <img src="images/img1.png" alt="Portofolio 3" />
+          <div class="overlay">Lihat Detail</div>
+          </a>
+        </div>
+        <p>Portofolio 3 - Deskripsi singkat karya ini.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+<section id="contact" class="contact">
+  <h2>Get in Touch</h2>
+  <p>Let's connect! Reach me through any of the platforms below:</p>
+
+  <div class="contact-cards">
+    <div class="contact-card">
+      <i class="fas fa-envelope"></i>
+      <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=sitirhmwti707@gmail.com" target="_blank">
+  sitirhmwti707@gmail.com</a></p>
+    </div>
+    <div class="contact-card">
+      <i class="fas fa-phone-alt"></i>
+      <p><a href="tel:+6288271572477">+62 882-7157-2477</a></p>
+    </div>
+    <div class="contact-card">
+      <i class="fab fa-instagram"></i>
+      <p><a href="https://instagram.com/stirhmw_" target="_blank">@stirhmw_</a></p>
+    </div>
+  </div>
+</section>
+
+    
+</body>
+</html>
